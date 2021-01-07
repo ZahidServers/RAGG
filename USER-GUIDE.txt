@@ -1,0 +1,29 @@
+User Guide
+Before Starting Application please make sure you have installed Ghost Script and Java jre inside your PC
+1.)When you First Open the software you will get Two options
+2.)If the file is a Excel format(XLS,XLSX,XLSM) or CSV enter 2 than press enter for selecting option 2
+3.)If the file is PDF check if the file contains proper rows and columns or it is text
+4.)If the file is a PDF having TABLES enter 2 than press enter for selecting option 2
+5.)If the PDF is text PDF and doesnt have tables select option 1
+6.) For Option 1:
+   a)You should know that option 1 will look for a keyword inside the file you can change keyword by editing keyword.txt.
+   b)For Editing Keyword open keyword.txt you will see "CGPI :  " written inside it inside of inverted commas add your own keyword if you want to look for a different keyword say for "SGPI :  " 
+   c)If dont edit keyword it look for CGPI
+   d)It will ask you for file name enter complete location put without .pdf ahead eg:"F:\RGG\output" where file name is output.pdf
+   e)Now if you '>>>Error: The Keyword "keyword" is not found' that means the keyword is not there
+   f)If there is no error it will show a graph containg how many students failed how many get CGPI less than 5 how many got CGPI more 9.5 etc etc.
+   g)Now you can save the graph image if you want there is save button in the graph window
+   h)After closing Graph you will see all that information is also printed on console along with total no of students and total no of students who passed
+   i)The information will remain on the console screen after closing graph for 15 seconds note it down then program will automaticaly close itself
+7.) For Option 2:
+   a)Now it will ask you for File Name/Address enter complete address like this "F:\RGG\output.pdf" where output.pdf is the file
+   b)Now if the file is PDF and you get weird columns names and weird output or if you get this error "Make sure the pdf contains proper row and columns format" then go for option 1
+   c)If you get this error "The Format is not supported." then make sure the file you entered is a only from following formats (PDF,XLS,XLSX,XLSM,CSV) other formats are not supported
+   d)If you get no error then everything sofar is correct.
+   e)A List of Column Names will be printed if it weired refer option b.
+   f)Now Enter the column name that you i.e(REMARKS, GRADE, CGPI) as it is dont change the case.
+   g)Now if you get this error Error No Such Column Exists then make sure entered column name correctly
+   h)If there is Now errors it will show you the Graph
+   i)if you want save graph there is save button graph window
+   j)After Closing Graph window you will see same information printed on screen it will remain on screen for 15 seconds note it down then program will automatically close itself.
+Default Keyword:"CGPI :  "
