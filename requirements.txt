@@ -1,5 +1,9 @@
+For Application:
+Install Ghost Script Application
+For Python Script:
 matplotlib
 camelot-py
 pandas
 xlrd
 openpyxl
+Ghost Script application
